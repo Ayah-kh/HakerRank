@@ -2,7 +2,7 @@ package org.example;
 
 import java.math.BigInteger;
 
-public class Class1 {
+public class PrimeNo {
     public static void main(String[] args) {
 
         BigInteger bigInteger=new BigInteger("22");
