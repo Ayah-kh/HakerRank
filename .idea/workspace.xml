@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c846aa72-3d14-4323-8eed-05d573489722" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Class1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaExceptionHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +42,9 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Class1">
-    <configuration name="Class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Class1" />
+  <component name="RunManager" selected="Application.PrimeNo">
+    <configuration name="JavaExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaExceptionHandling" />
       <module name="HakerRank" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.JavaExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaExceptionHandling" />
+    <configuration name="PrimeNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PrimeNo" />
       <module name="HakerRank" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Class1" />
+        <item itemvalue="Application.PrimeNo" />
         <item itemvalue="Application.org.example.JavaExceptionHandling" />
       </list>
     </recent_temporary>
@@ -127,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679221656430</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="First Commit">
+      <created>1679222558234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679222558234</updated>
+    </task>
+    <task id="LOCAL-00008" summary="First Commit">
+      <created>1679222587263</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679222587264</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
