@@ -24,8 +24,8 @@ public class JavaExceptionHandling {
 
     public static void main(String[] args) {
 
-        int n = 2;
-        int p = 3;
+        int n = 0;
+        int p = 0;
 
         try {
             System.out.println(my_calculator.power(n, p));
