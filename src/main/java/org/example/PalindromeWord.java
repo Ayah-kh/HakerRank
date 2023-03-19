@@ -12,13 +12,16 @@ public class PalindromeWord {
     public static void main(String[] args) {
 
 
-        String word = "madfffam";
-        char[] words = word.toCharArray();
+        String A = "madffdam";
+        char[] words = A.toCharArray();
         System.out.println(Arrays.toString(words));
         System.out.println(words.length);
-        boolean isPalindrome = false;
+        boolean isPalindrome = true;
 
         for (int i = 0; i < words.length / 2; i++) {
+            if (!isPalindrome)
+                break;
+
             if (words[i] == words[words.length - 1 - i])
                 isPalindrome = true;
             else {
@@ -26,10 +29,12 @@ public class PalindromeWord {
 
             }
 
-            System.out.println("i: " + i + ">>" + words[i] +
-                    " - " + "Array length-1 : " + words[words.length - 1 - i]);
-            System.out.println(isPalindrome);
         }
+
+        if (isPalindrome)
+            System.out.println("Yes");
+        else
+            System.out.println("No");
 
 
     }
