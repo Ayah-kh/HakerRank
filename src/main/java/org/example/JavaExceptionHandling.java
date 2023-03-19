@@ -3,13 +3,13 @@ package org.example;
 import java.util.*;
 
 class MyCalculator {
-    public long power (int n, int p) throws Exception {
-        long result;
-//        if (n==0 && p==0)
-//            throw new Exception("java.lang.Exception: n and p should not be zero.");
+    public long power(int n, int p) throws Exception {
+        if (n == 0 && p == 0)
+            throw new Exception("java.lang.Exception: n and p should not be zero.");
+        if (n < 0 || p < 0)
+            throw new Exception("java.lang.Exception: n or p should not be negative.");
 
-        result = (long) Math.pow(n, p);
-        return result;
+        return (long) Math.pow(n, p);
     }
     /*
      * Create the method long power(int, int) here.
