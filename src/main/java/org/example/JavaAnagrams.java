@@ -3,9 +3,13 @@ package org.example;
 import java.util.Arrays;
 
 public class JavaAnagrams {
-//    static boolean isAnagram(String a, String b) {
-//        // Complete the function
-//    }
+    static boolean isAnagram(String a, String b) {
+        int[] count= countLetters(a);
+        int[] count2= countLetters(b);
+        String string1=Arrays.toString(count);
+        String string2 = Arrays.toString(count2);
+        return string1.equals(string2);
+    }
 
     static int[] countLetters(String line) {
         int[] count = new int[26];
@@ -75,10 +79,6 @@ public class JavaAnagrams {
 //        boolean ret = isAnagram(a, b);
 //        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
 
-        int[] count= countLetters("Elephant");
-        int[] count2= countLetters("tlepHanE");
-        System.out.println(Arrays.toString(count));
-        System.out.println(Arrays.toString(count2));
 
 
 
