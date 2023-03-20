@@ -1,6 +1,6 @@
 package org.example;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class JavaAnagrams {
     static boolean isAnagram(String a, String b) {
