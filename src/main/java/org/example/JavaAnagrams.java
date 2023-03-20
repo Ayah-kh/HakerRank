@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class JavaAnagrams {
     static boolean isAnagram(String a, String b) {
-        int[] count= countLetters(a);
-        int[] count2= countLetters(b);
-        String string1=Arrays.toString(count);
+        int[] count = countLetters(a);
+        int[] count2 = countLetters(b);
+        String string1 = Arrays.toString(count);
         String string2 = Arrays.toString(count2);
         return string1.equals(string2);
     }
@@ -67,19 +67,45 @@ public class JavaAnagrams {
                 - line.replace("q", "")
                 .replace("Q", "").length();
 
+        count[18] = line.length()
+                - line.replace("r", "")
+                .replace("R", "").length();
+        count[19] = line.length()
+                - line.replace("s", "")
+                .replace("S", "").length();
+        count[20] = line.length()
+                - line.replace("t", "")
+                .replace("T", "").length();
+        count[21] = line.length()
+                - line.replace("u", "")
+                .replace("U", "").length();
+        count[22] = line.length()
+                - line.replace("v", "")
+                .replace("V", "").length();
+        count[23] = line.length()
+                - line.replace("w", "")
+                .replace("W", "").length();
+        count[24] = line.length()
+                - line.replace("x", "")
+                .replace("X", "").length();
+        count[25] = line.length()
+                - line.replace("y", "")
+                .replace("Y", "").length();
+        count[17] = line.length()
+                - line.replace("z", "")
+                .replace("Z", "").length();
+
         return count;
     }
 
     public static void main(String[] args) {
 
 
-//        String a = "anagramm";
-//        String b = "marganaa";
-//
-//        boolean ret = isAnagram(a, b);
-//        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
+        String a = "anagram";
+        String b = "margana";
 
-
+        boolean ret = isAnagram(a, b);
+        System.out.println((ret) ? "Anagrams" : "Not Anagrams");
 
 
     }
