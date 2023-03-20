@@ -10,6 +10,13 @@ public class JavaAnagrams {
         String string2 = Arrays.toString(count2);
         return string1.equals(string2);
     }
+    static boolean isAnagram2(String a, String b) {
+        char[] chars1=a.toLowerCase().toCharArray();
+        char[] chars2=b.toLowerCase().toCharArray();
+        Arrays.sort(chars1);
+        Arrays.sort(chars2);
+        return Arrays.equals(chars1,chars2);
+    }
 
     static int[] countLetters(String line) {
         int[] count = new int[26];
@@ -101,10 +108,10 @@ public class JavaAnagrams {
     public static void main(String[] args) {
 
 
-        String a = "anagram";
+        String a = "anagramaa";
         String b = "margana";
 
-        boolean ret = isAnagram(a, b);
+        boolean ret = isAnagram2(a, b);
         System.out.println((ret) ? "Anagrams" : "Not Anagrams");
 
 
